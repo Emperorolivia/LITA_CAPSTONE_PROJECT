@@ -70,9 +70,10 @@ This Project was designed to address the following analysis goals:
 -------------
 ## Data Analysis 
 This is were we included some basic lines of code or queries or even some of the DAX expressions used during analysis
-..... SQL
+``` SQL
 - select Region, count(CustomerID) as no_of_Customers from [dbo].[customer]
 group by Region
+```
 ----------
 ## Data Visualizations
 
