@@ -7,7 +7,7 @@ This data analysis project aims to generate insight into the sales performance o
 In the data recceived, we seek to gather enough insight to make resonable decisions which then enablle us to tell compelling stories around our data from the insight gotten and to know the best performance from our data
 --------
 ## Tools Used
-- Microsoft Excel
+- Microsoft Excel [Download Here](https://www.microsoft.com)
  1. for Analysis
  2. For Visualization
 
