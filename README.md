@@ -58,3 +58,13 @@ This Project was designed to address the following analysis goals:
 - Which of our Products makes the greatest profit and which product runs the store into loss
 - What is the total sales made yearly since 2023? Has sales been on the increase since over the years?
 - Which Region Has the Highest sales and Which Region has the lowest sales
+-------------
+## Data Analysis 
+This is were we included some basic lines of code or queries or even some of the DAX expressions used during analysis
+.....SQL
+select * from Table 
+----------
+## Data Visualizations
+
+--------
+## Conclusions & Recommendations
