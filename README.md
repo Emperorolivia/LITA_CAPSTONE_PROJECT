@@ -55,6 +55,7 @@ EDA involved the exploring of the data to answer some questions about the data s
 ## Project Objective
 This Project was designed to address the following analysis goals:
 - Sales Transaction in Each Region
+![](pic1.png)
 - Highest Selling Product By Total Sales Values
 - Total Revenue Per Product
 - Monthly Sales Total For The Current Year
