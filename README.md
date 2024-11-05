@@ -34,16 +34,16 @@ It contains two sheets/tables
 
 1. SalesData with 50,001 rows and 7 columns 
 2. CustomerData with 75,001 rows and 8 columns
-
+------------------
 ## Data Transformation/Cleaning:
 Data was efficiently cleaned and transformed with **Power BI** . [a screenshot of applied steps] some of the applied steps included
-
+-----------------
 ## Exploratory Data Analysis
 EDA involved the exploring of the data to answer some questions about the data such as;
 - Top selling product
 - Regional Performance
 - Monthly Sales Trends
-
+-------------------
 ## Project Objective
 This Project was designed to address the following analysis goals:
 - Sales Transaction in Each Region
@@ -53,4 +53,8 @@ This Project was designed to address the following analysis goals:
 - Top Five Customers by Total Purchase Amount
 - Percentage Of Total Sales Contributed By Each Region
 - Product With No Sales In Last Quarter
-
+----------------
+## Problem Statement
+- Which of our Products makes the greatest profit and which product runs the store into loss
+- What is the total sales made yearly since 2023? Has sales been on the increase since over the years?
+- Which Region Has the Highest sales and Which Region has the lowest sales
