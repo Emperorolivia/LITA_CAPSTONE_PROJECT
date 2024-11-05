@@ -3,7 +3,7 @@
 # PROJECT TITLE: Sales Data Of A Retail Store
 
 ## Project Overview
-This data analysis project aims to generate insight into the sales performance of a retail store over the past period of time, by analyzing top-selling products, regional performance and monthly sales trends.
+This data analysis project aims to generate insight into the sales performance of a retail store over the past period of time, by analyzing top-selling products, regional performance and monthly sales trends. This project  analyze and drive insights to answer crucial questions and help the store make data driven decisions.
 In the data recceived, we seek to gather enough insight to make resonable decisions which then enablle us to tell compelling stories around our data from the insight gotten and to know the best performance from our data
 --------
 ## Tools Used
@@ -28,7 +28,7 @@ The following Power Bi features were incoporated by
 - Filters
 ---------------
 ## Data Sourcing
-This data (LITA_Capstone_Dataset) was gotten from LITA_Incubator LMS on CANVAS. it was then saved into my excel workbook before i converted it to a **csv file** in-other for it to be imported into my SQL. on my Power BI, it was imported from my excel workbook.
+This data (LITA_Capstone_Dataset) was gotten from LITA_Incubator LMS on CANVAS. it was then saved into my excel workbook before it was converted  into a **csv file** in-other for it to be imported into my SQL. on my Power BI, it was imported from my excel workbook.
 
 It contains two sheets/tables
 
@@ -37,6 +37,14 @@ It contains two sheets/tables
 ------------------
 ## Data Transformation/Cleaning:
 Data was efficiently cleaned and transformed with **Power BI** . [a screenshot of applied steps] some of the applied steps included
+After scrutinizing all the columns, they were found to be valid and and devoid of empty cells and errors.
+
+I created three more columns, all extracted from the OrderDate column.
+
+- The first column contained months in date formamt and named Order Months
+- Year was extracted from OrderDate for the second column, then i named it Order Year.
+- The third column contained quarter which was in date format. I named it Quarter.
+![]()
 -----------------
 ## Exploratory Data Analysis
 EDA involved the exploring of the data to answer some questions about the data such as;
@@ -62,7 +70,8 @@ This Project was designed to address the following analysis goals:
 ## Data Analysis 
 This is were we included some basic lines of code or queries or even some of the DAX expressions used during analysis
 .....SQL
-select * from Table 
+select Region, count(CustomerID) as no_of_Customers from [dbo].[customer]
+group by Region
 ----------
 ## Data Visualizations
 
