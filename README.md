@@ -78,3 +78,7 @@ group by Region
 
 --------
 ## Conclusions & Recommendations
+- in conclusion The highest selling product is shoes while the lowest selling product is socks.
+-  The region making the most sales in the retail store is south and the region making the lowest sales is west
+- A total of 345,000 product was sold with a net worth of 1 million.
+  
