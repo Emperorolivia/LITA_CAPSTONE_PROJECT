@@ -13,4 +13,4 @@ The following Power Bi features were incoporated by
 -Filters
 
 ### Data Source
-This data (LITA Capstone Dataset) was gotten from LITA_Incubator LMS on CANVAS, and was 
+This data (LITA Capstone Dataset) was gotten from LITA_Incubator LMS on CANVAS, and 
