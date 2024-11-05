@@ -36,10 +36,10 @@ It contains two sheets/tables
 2. CustomerData with 75,001 rows and 8 columns
 ------------------
 ## Data Transformation/Cleaning:
-Data was efficiently cleaned and transformed with **Power BI** . [a screenshot of applied steps] some of the applied steps included
-After scrutinizing all the columns, they were found to be valid and and devoid of empty cells and errors.
+Data was efficiently cleaned and transformed with **Power BI** . [a screenshot of applied steps] 
+After scrutinizing all the columns, they were found to be valid and  devoid of empty cells and errors.
 
-I created three more columns, all extracted from the OrderDate column.
+I created three more columns, all extracted from the OrderDate column. some of the applied steps included
 
 - The first column contained months in date formamt and named Order Months
 - Year was extracted from OrderDate for the second column, then i named it Order Year.
@@ -69,8 +69,8 @@ This Project was designed to address the following analysis goals:
 -------------
 ## Data Analysis 
 This is were we included some basic lines of code or queries or even some of the DAX expressions used during analysis
-.....SQL
-select Region, count(CustomerID) as no_of_Customers from [dbo].[customer]
+..... SQL
+- select Region, count(CustomerID) as no_of_Customers from [dbo].[customer]
 group by Region
 ----------
 ## Data Visualizations
